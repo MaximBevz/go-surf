@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face("Fira", "../fonts/Fira/FiraSans-Thin", 100);
+@include font-face("Fira", "../fonts/Fira/FiraSans-Light", 300);
+@include font-face("Fira", "../fonts/Fira/FiraSans-Regular", 400);
+@include font-face("Fira", "../fonts/Fira/FiraSans-Medium", 500);
+@include font-face("Fira", "../fonts/Fira/FiraSans-ExtraBold", 800);
+

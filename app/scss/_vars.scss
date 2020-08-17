@@ -1,0 +1,31 @@
+$default-font: "Fira", sans-serif;
+$text: #fff;
+$decor-color: #4AF6CD;
+
+%sub-style{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.5;
+} 
+%main-text {
+  font-family: $default-font;
+  font-weight: 800;
+  color: $text;
+  font-size: 40px;
+}
+%head-text {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 86px;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
